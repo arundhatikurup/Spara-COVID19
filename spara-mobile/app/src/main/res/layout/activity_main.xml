@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="28dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/vlogobg"
+        android:src="@drawable/vlogo"
+        />
+
+<TextView
+    android:layout_width="match_parent"
+    android:text="Welcome to Varna!"
+    android:textSize="32sp"
+    android:layout_marginTop="80dp"
+    android:textColor="@color/black"
+    android:gravity="center"
+    android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="User Id"
+        android:background="@drawable/textinputborder"
+        android:paddingLeft="16dp"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/textinputborder"
+        android:paddingLeft="16dp"
+        />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginLeft="28dp"
+        android:text="LOG IN"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:id="@+id/welcome_screen_login_button"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/logintextview"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/welcome_screen_register_button"
+
+        android:textColor="@color/black"
+        android:text="@string/register"/>
+
+
+</LinearLayout>

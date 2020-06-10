@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Varna</string>
+    <string name="register">New member? Register here</string>
+    <string name="confirmation">Dawn Smith, you work at Chicago City Hospital with Emplyoee Id #123456789. </string>
+    <string name="currentStatus">Thanks, your account setup is complete! How are you feeling today? </string>
+
+</resources>
